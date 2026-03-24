@@ -36,10 +36,10 @@ jobs:
           if [ "${{ github.event_name }}" = "repository_dispatch" ] && \
              [ "$RELEASES_JSON" != 'null' ] && [ -n "$RELEASES_JSON" ]; then
             echo "Incremental sync from webhook"
-            npx myop export --releases "$RELEASES_JSON"
+            npx myop export --output "$OUTPUT_DIR" --releases "$RELEASES_JSON"
           else
             echo "Full sync"
-            npx myop export
+            npx myop export --output "$OUTPUT_DIR"
           fi
         env:
           MYOP_API_KEY: ${{ secrets.MYOP_API_KEY }}
