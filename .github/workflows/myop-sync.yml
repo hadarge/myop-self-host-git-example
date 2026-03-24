@@ -1,0 +1,77 @@
+name: Myop Component Sync
+
+on:
+  # Triggered by Myop webhook via GitHub repository_dispatch
+  repository_dispatch:
+    types: [myop-components-deployed]
+
+  # Scheduled fallback — ensures components are in sync even if a webhook was missed
+  schedule:
+    - cron: '0 0 * * *'  # Every 24 hours (midnight UTC)
+
+  # Manual trigger — always does a full sync
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  MYOP_API_URL: https://cloud.myop.dev
+  OUTPUT_DIR: ./components
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Export components from Myop
+        run: |
+          if [ "${{ github.event_name }}" = "repository_dispatch" ] && \
+             [ "$RELEASES_JSON" != 'null' ] && [ -n "$RELEASES_JSON" ]; then
+            echo "Incremental sync from webhook"
+            npx myop export --releases "$RELEASES_JSON"
+          else
+            echo "Full sync"
+            npx myop export
+          fi
+        env:
+          MYOP_API_KEY: ${{ secrets.MYOP_API_KEY }}
+          MYOP_API_URL: ${{ env.MYOP_API_URL }}
+          OUTPUT_DIR: ${{ env.OUTPUT_DIR }}
+          RELEASES_JSON: ${{ toJSON(github.event.client_payload.releases) }}
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "myop-bot"
+          git config user.email "bot@myop.dev"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            TRIGGER="${{ github.event_name }}"
+            if [ "$TRIGGER" = "repository_dispatch" ]; then
+              MSG="sync: update components from Myop webhook"
+            elif [ "$TRIGGER" = "schedule" ]; then
+              MSG="sync: scheduled full sync"
+            else
+              MSG="sync: manual full sync"
+            fi
+            git commit -m "$MSG"
+            git push
+          fi
+
+      - name: Summary
+        run: |
+          echo "## Myop Sync Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          COMPONENT_COUNT=$(find ${{ env.OUTPUT_DIR }} -name "*.json" 2>/dev/null | wc -l)
+          echo "- **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Component files:** ${COMPONENT_COUNT}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Output:** committed to this repository" >> $GITHUB_STEP_SUMMARY
