@@ -1,0 +1,19 @@
+{
+  "version": "0.2.9",
+  "item": {
+    "name": "To delete",
+    "id": "71f27e5a-277b-41a4-b64a-23476056faef",
+    "organizationId": "myop2000-0000-0000-0000-000000000000",
+    "consume_variant": [
+      {
+        "name": "version 12",
+        "loader": {
+          "type": "HTMLLoader",
+          "shadowRootMode": "localFrame",
+          "HTML": "<!-- New version HTML code here -->\n<div>version 12</div>"
+        },
+        "id": "5514a1e2-5bc6-48dd-8e74-cc9cf87e3222"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": "0.2.9",
+  "item": {
+    "name": "Black Friday Pricing",
+    "id": "8657decb-3d56-4d09-82e9-c72cb0f2baf1",
+    "organizationId": "myop2000-0000-0000-0000-000000000000",
+    "consume_variant": [
+      {
+        "id": "23c46c2f-6162-4dc4-a00b-baf8ca6537ce",
+        "name": "second version",
+        "loader": {
+          "type": "HTMLLoader",
+          "shadowRootMode": "localFrame",
+          "HTML": "\n\n<script>\n\nmyop_init_interface  = ()=>{}\nmyop_cta_handler = ()=>{}\n\n</script>"
+        }
+      }
+    ]
+  }
+}

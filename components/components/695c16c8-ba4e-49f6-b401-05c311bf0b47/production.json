@@ -1,0 +1,19 @@
+{
+  "version": "0.2.9",
+  "item": {
+    "name": "Contact Form",
+    "id": "695c16c8-ba4e-49f6-b401-05c311bf0b47",
+    "organizationId": "myop2000-0000-0000-0000-000000000000",
+    "consume_variant": [
+      {
+        "id": "a21da5c9-22a9-4c81-b521-382a561bce9a",
+        "name": "firstvar",
+        "loader": {
+          "type": "HTMLLoader",
+          "shadowRootMode": "localFrame",
+          "HTML": "<!-- Start coding here -->\n<div>New congent</div>"
+        }
+      }
+    ]
+  }
+}
