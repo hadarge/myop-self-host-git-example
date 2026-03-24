@@ -1,0 +1,19 @@
+{
+  "version": "0.2.10",
+  "item": {
+    "name": "AccountProfile_test",
+    "id": "2396b4ee-e7c6-4d40-915f-a1995588e098",
+    "organizationId": "b1aed0f0-1e47-40f6-9ea4-a539c7fb3453",
+    "consume_variant": [
+      {
+        "name": "Version 2",
+        "loader": {
+          "type": "HTMLLoader",
+          "shadowRootMode": "localFrame",
+          "HTML": "<!-- Start coding here -->\r\n<div>This is my Account Profile Test</div>\r\nasdfas\r\ndf\r\nasdfasf\r\nasdfasasd\r\nfunctionasd\r\nf\r\n<script>\r\n    // Called on initialization and whenever the host sends configuration or state updates to this component\r\nmyop_init_interface = () => {}\r\n\r\n// Provided by the host - call this function to send data or trigger actions in the host app\r\nmyop_cta_handler = () => {}\r\n\r\n</script>"
+        },
+        "id": "04c8dcde-9102-4b63-805e-3b92754d3842"
+      }
+    ]
+  }
+}
