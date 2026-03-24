@@ -1,0 +1,408 @@
+{
+  "version": 1,
+  "exportedAt": "2026-03-24T18:21:09.454Z",
+  "organization": "myop2000-0000-0000-0000-000000000000",
+  "components": [
+    {
+      "id": "7d34cfb1-6422-453d-9add-43ebece58108",
+      "name": "myExperiences",
+      "environments": [
+        "prod",
+        "demo"
+      ]
+    },
+    {
+      "id": "f2925f49-e1da-4377-a3bd-cef0e4a731cb",
+      "name": "CodeSnippetModal",
+      "environments": [
+        "demo",
+        "prod",
+        "qa"
+      ]
+    },
+    {
+      "id": "6a11b6c3-7ad6-4fe3-bf04-2570f371aa1f",
+      "name": "componentBuilder-playground",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "3e3ecf8c-74b9-4d8b-af10-da255b580b56",
+      "name": "Variant Environment Status Modal",
+      "environments": [
+        "demo"
+      ]
+    },
+    {
+      "id": "cfff1be2-a55f-4d76-82fc-925426350a38",
+      "name": "marketplace preview modal",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "71f27e5a-277b-41a4-b64a-23476056faef",
+      "name": "To delete",
+      "environments": [
+        "demo",
+        "production",
+        "qa"
+      ]
+    },
+    {
+      "id": "c9ffd188-ad08-4144-86b1-7e5d0d83713a",
+      "name": "HomePage",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "4f56bab9-d5e3-44f4-91b9-49afc9577dde",
+      "name": "Publish modal (Playground)",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "ce41972e-bace-4a0d-8fac-abfefe85edb0",
+      "name": "Website enterprise page",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "4c422173-6e39-4768-b418-5ffa3fff0287",
+      "name": "Environment Configuration",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "210f5e0c-2b7f-4030-ae85-b589499285d1",
+      "name": "experience.page",
+      "environments": [
+        "demo",
+        "prod",
+        "qa"
+      ]
+    },
+    {
+      "id": "2d37f9b9-04a0-4cbe-807e-073ff93294d0",
+      "name": "Loading Agent working",
+      "environments": [
+        "demo"
+      ]
+    },
+    {
+      "id": "fb41be39-8383-4b3f-9913-4a5a4607fad0",
+      "name": "Profile app | Table",
+      "environments": [
+        "demo"
+      ]
+    },
+    {
+      "id": "4ac54bb4-352d-4a80-a010-410b72e0fe6a",
+      "name": "Website - Learn",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "7e6fe1fc-7fbc-49aa-8a39-3ab9fca8ff3c",
+      "name": "hi bob club view",
+      "environments": [
+        "qa"
+      ]
+    },
+    {
+      "id": "ecd5d527-c898-46d8-bbb2-14c3fc33eb39",
+      "name": "Member & Seats",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "76a47607-1476-48be-ad04-28cd5601409f",
+      "name": "marketplace - submit implementation modal",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "9910237c-3089-4e62-ac9b-2cbdf304fa46",
+      "name": "Billing - Payment successful",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "d43c04ed-95c7-4826-bfca-d6c1e0b07228",
+      "name": "Yad2 Stats Dashboard",
+      "environments": [
+        "demo"
+      ]
+    },
+    {
+      "id": "ab87d6f5-858f-48f3-beb8-1073883046f6",
+      "name": "Website homepage",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "1560267b-4188-4335-97f1-59955e1dc922",
+      "name": "Billing",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "4570e936-4a46-4717-8350-41ee601608e5",
+      "name": "Small Sign In Card",
+      "environments": [
+        "qa",
+        "demo"
+      ]
+    },
+    {
+      "id": "dcf315f5-b306-425c-bb59-224847cc8114",
+      "name": "marketplace - Share request via link modal",
+      "environments": [
+        "prod",
+        "demo"
+      ]
+    },
+    {
+      "id": "80838f3b-e36f-499e-bf2f-978ad49f4606",
+      "name": "Website - AI Platforms",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "c4bd1c92-fd25-45d2-96ab-5edd1499b54d",
+      "name": "Website - FAQ",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "2098cfba-5124-48ff-b87d-6cd71c14cf7a",
+      "name": "eToro 2",
+      "environments": [
+        "demo"
+      ]
+    },
+    {
+      "id": "83599dc9-2fbc-4442-8722-84502b78eca2",
+      "name": "Playground Video Tutorial modal",
+      "environments": [
+        "demo",
+        "prod",
+        "qa"
+      ]
+    },
+    {
+      "id": "30eb9c92-a0da-4113-b54e-db7553134100",
+      "name": "ComponentBuilder",
+      "environments": [
+        "demo",
+        "prod",
+        "qa"
+      ]
+    },
+    {
+      "id": "bb651b0c-f22e-4cbf-bf85-ff81d477424d",
+      "name": "marketplace - Implementation request/preview - Builder side",
+      "environments": [
+        "prod",
+        "demo"
+      ]
+    },
+    {
+      "id": "1c1e12dc-098b-4d89-911e-530ed313d1c8",
+      "name": "Delete Environment Modal",
+      "environments": [
+        "prod",
+        "demo",
+        "qa"
+      ]
+    },
+    {
+      "id": "a1e18256-ee7b-4ec1-99e2-27b265129310",
+      "name": "Myop live - Preview Content",
+      "environments": [
+        "demo"
+      ]
+    },
+    {
+      "id": "8657decb-3d56-4d09-82e9-c72cb0f2baf1",
+      "name": "Black Friday Pricing",
+      "environments": [
+        "demo",
+        "production",
+        "qa",
+        "prod"
+      ]
+    },
+    {
+      "id": "af4a85ce-ed0d-4024-a026-3dc3541aa064",
+      "name": "ComponentList",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "b8c92406-03e3-406a-a169-c16cf8797508",
+      "name": "Website Myop Playground",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "645285f2-f42c-4af8-a1a1-99dcf2dbfa39",
+      "name": "etoro1",
+      "environments": [
+        "demo"
+      ]
+    },
+    {
+      "id": "ce427449-88c3-43f5-8489-a4c9debe9584",
+      "name": "Organization Settings",
+      "environments": [
+        "prod",
+        "demo"
+      ]
+    },
+    {
+      "id": "c0aab4ea-85bc-4033-adc0-22debdd457f4",
+      "name": "Website about us",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "415c31ce-41db-4e95-91e5-4f43a169ae50",
+      "name": "Leave without saving modal",
+      "environments": [
+        "demo",
+        "qa",
+        "prod"
+      ]
+    },
+    {
+      "id": "f2bf4870-2343-4f4a-beed-2581e208ad91",
+      "name": "Stripe not connected yet",
+      "environments": [
+        "prod",
+        "demo"
+      ]
+    },
+    {
+      "id": "74cb48fa-7536-4a77-9402-9701655d82e4",
+      "name": "Profile app | Header",
+      "environments": [
+        "demo"
+      ]
+    },
+    {
+      "id": "6a09e22f-b778-4fe2-9d0a-1c00bc6ecf29",
+      "name": "Website Extension Page",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "e5748e68-6dca-4490-b91d-d56de475745a",
+      "name": "General tutorial guide",
+      "environments": [
+        "demo",
+        "prod",
+        "qa"
+      ]
+    },
+    {
+      "id": "2a5275d6-2de9-41c5-8f27-f3bfc86230b1",
+      "name": "RolloutScreen",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "8f8082b1-2d11-4b23-84f8-686ec69050fd",
+      "name": "Marketplace",
+      "environments": [
+        "prod",
+        "demo"
+      ]
+    },
+    {
+      "id": "8a24724d-3d0c-498d-90c9-61307b9b1c0c",
+      "name": "Website Myop Pixie Page",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "0bf17f7f-a9e4-4099-8afa-f6fa69d84ada",
+      "name": "Playground - Select area",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "f33fa642-3f3b-45c4-a1a6-f884071409b2",
+      "name": "Tests runner",
+      "environments": [
+        "qa",
+        "demo"
+      ]
+    },
+    {
+      "id": "5f512faa-67f0-4414-8ffd-7806729ca876",
+      "name": "MarketplaceBuilder",
+      "environments": [
+        "prod",
+        "demo"
+      ]
+    },
+    {
+      "id": "b31c7072-e13c-4966-8446-4d69d378001a",
+      "name": "Playground - Empty State",
+      "environments": [
+        "demo",
+        "prod"
+      ]
+    },
+    {
+      "id": "695c16c8-ba4e-49f6-b401-05c311bf0b47",
+      "name": "Contact Form",
+      "environments": [
+        "production",
+        "demo"
+      ]
+    }
+  ]
+}
