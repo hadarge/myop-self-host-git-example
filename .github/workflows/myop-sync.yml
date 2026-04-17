@@ -6,8 +6,8 @@ on:
     types: [myop-components-deployed]
 
   # Scheduled fallback — ensures components are in sync even if a webhook was missed
-  schedule:
-    - cron: '0 0 * * *'  # Every 24 hours (midnight UTC)
+  #schedule:
+  #  - cron: '0 0 * * *'  # Every 24 hours (midnight UTC)
 
   # Manual trigger — always does a full sync
   workflow_dispatch:
